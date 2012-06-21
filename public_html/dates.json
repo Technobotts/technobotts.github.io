@@ -5,7 +5,10 @@
 		"Eric": "eric.wieser",
 		"Luke": "luke.e.sheard",
 		"Oliver": "o.wightwick",
-		"Catherine": "catherine.wightwick"
+		"Catherine": "catherine.wightwick",
+		"Louis": "kragniz",
+		"Jonathan": "jonathan.laver.3",
+		"Nic": "nicholasjdart"
 	},
 	"competitions": [
 		{
@@ -101,7 +104,7 @@
 				}
 			],
 			"details": "Climate-themed challenges",
-			"teamMembers": ["Catherine", "Andrew", "Alex", "Eric", "Oliver"]
+			"teamMembers": ["Catherine", "Alex", "Andrew", "Eric", "Oliver"]
 		},
 		{
 			"name": "Robocup Junior Soccer 2010",
@@ -146,6 +149,30 @@
 			],
 			"details": "Autonomous football-playing robots, in aluminum",
 			"teamMembers": ["Catherine", "Andrew", "Eric"]
+		},
+		{
+			"name": "Student Robotics 2012",
+			"url": "http://team759.blogspot.com",
+			"events": [
+				{
+					"competition": "Student Robotics",
+					"date": "24 Sep 2011",
+					"type": "release",
+					"location": "Southampton University"
+				},
+				{
+					"competition": "Student Robotics",
+					"date": [
+						"14 Apr 2012",
+						"15 Apr 2012"
+					],
+					"type": "final",
+					"location": "Southampton University"
+				}
+			],
+			"teamName": "systemetric",
+			"details": "Autonomous robots to pick up and find cubes",
+			"teamMembers": ["Alex", "Andrew", "Eric", "Jonathan", "Louis", "Nic"]
 		}
 	]
 }
