@@ -1,1 +1,1 @@
-<em>Coming soon</em>
+Eric did a write up of this year's competition at <a href="http://eric-wieser.github.com/ARC">http://eric-wieser.github.com/ARC<a/> for a school project.
