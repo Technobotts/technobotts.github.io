@@ -23,11 +23,13 @@
 						group.end = this.endDate;
 				});
 				
-				var groupHolder = $('<a />').attr('href', this.url).addClass('group').data(group).append(
+				var groupHolder = $('<a />').attr('href', this.url || "").addClass('group').data(group).append(
 						$('<span />').addClass('arrow').append(
 							$('<span />')
 						)
 					);
+
+				if(this.teamName) groupHolder.addClass('team-'+this.teamName);
 				
 				$.each(this.events, function(i) {
 					var l = (this.startDate - group.start) / (group.end - group.start);
@@ -207,6 +209,14 @@
 
 .timeline .group .marker {
 	background: #FF8000;
+	padding: 0px 1px;
+	margin: 0px -1px;
+	height: 20px;
+	position: absolute;
+}
+
+.timeline .group.team-systemetric .marker {
+	background: #0080ff;
 	padding: 0px 1px;
 	margin: 0px -1px;
 	height: 20px;
