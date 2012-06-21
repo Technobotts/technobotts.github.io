@@ -1,0 +1,32 @@
+<p>
+	Welcome to the website of the TechnoBotts robotics team, which currently
+	consists of two boys aged 16 and 17 from villages near Cambridge.
+</p>
+<em class="large">
+	TechnoBotts are the 2011 UK RoboCup Junior Soccer champions!
+</em>
+
+<div class="object-box">
+	<iframe width="640" height="360" src="http://www.youtube.com/embed/deIhmEFZ1co?rel=0&wmode=transparent" frameborder="0" allowfullscreen></iframe>
+	<span class="caption">The Robocup Soccer UK Final 2011</span>
+	<iframe width="640" height="360" src="http://www.youtube.com/embed/ENgx-ieA1ro?rel=0&wmode=transparent" frameborder="0" allowfullscreen></iframe>
+	<span class="caption">Demonstrating the robots at the Cavendish laboratory in Cambridge</span>
+	<img src="/images/2011 UK Robocup Trophy.jpg"/>
+	<span class="caption">The trophy which we won at the UK competition</span>
+</div>
+<p>	
+	We have been the UK RoboCup Junior Soccer champions for two years running,
+	and went to Singapore to represent the UK in RoboCup in 2010. Previously, we
+	travelled to Atlanta in 2007 and 2009 to compete in First Lego League (FLL).
+</p>
+<p>
+	This year, after doing even better in the 2011 UK final (we scored 28 goals in
+	the 2011 UK final and let no goals in), we will be travelling to Istanbul to
+	represent the UK in RoboCup 2011. You can find information this year's robots
+	<a href="http://technobotts.info/soccer">here</a>.
+</p>
+<p>
+	Previously, we have travelled to Atlanta in 2007 and 2009 to compete in First
+	Lego League (<a href="http://technobotts.info/fll">FLL</a>). In the 2009 
+	competition we won the first place trophy for Innovative Design.
+</p>

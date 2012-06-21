@@ -1,0 +1,18 @@
+<h2>Timeline</h2>
+<?php include('timeline.inc') ?>
+<!--
+<h2>Members</h2>
+<p>
+The TechnoBotts robotics team consists of 2 people, and a coach. The team members are Andrew and Eric. Eric does most of the programming, and Andrew does most of the robot building.
+</p>
+<p>
+Our coach is called Catherine. She is Andrew's mother, and has greatly helped us by organising the team, and supplying Jaffa Cakes at regular intervals.
+</p>
+<div class="object-box" data-random="true">
+	<img src="http://a7.sphotos.ak.fbcdn.net/hphotos-ak-ash4/197466_4944261003_681371003_111823_6655_n.jpg" width="200" height="132" />
+	<span class="caption">Catherine</span>
+	<img src="https://graph.facebook.com/andrew.wightwick/picture?type=large" />
+	<span class="caption">Andrew</span>
+	<img src="https://graph.facebook.com/eric.wieser/picture?type=large" />
+	<span class="caption">Eric</span>
+</div>-->
