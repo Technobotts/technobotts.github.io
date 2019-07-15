@@ -5,12 +5,6 @@ description: >
 # baseurl: "/technobotts.info"
 url: "http://technobotts.github.io"
 
-collections:
-  pages:
-    output: true
-    permalink: /:name
-    layout: default
-
 # Build settings
 markdown: kramdown
 
