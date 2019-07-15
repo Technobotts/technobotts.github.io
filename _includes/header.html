@@ -1,0 +1,15 @@
+<div id="header">
+	<h1 id="logo">Technobotts</h1>
+	<ul id="navbar">
+		{% assign pages = site.pages | sort: 'order' %}
+		{% for item in pages %}
+			{% if item.order != nil %}
+				<li class="{% if item.url == page.url %}current{% endif %}">
+					<a href="{{item.url}}">
+						{{item.title}}
+					</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	<li><a href="/blog/">Blog</a></li></ul>
+</div>

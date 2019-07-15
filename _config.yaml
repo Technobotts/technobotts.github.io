@@ -1,0 +1,21 @@
+# Site settings
+title: Technobotts
+description: >
+  Archived webpage for the Technobotts robotics team
+# baseurl: "/technobotts.info"
+url: "http://technobotts.github.io"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+    layout: default
+
+# Build settings
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: "" # all files in the project
+    values:
+      layout: "default"

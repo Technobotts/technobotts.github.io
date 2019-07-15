@@ -1,9 +1,11 @@
-@accent: #FF8000;
-@accent-dark: @accent * 0.5;
+---
+---
+$accent: #FF8000;
+$accent-dark: $accent * 0.5;
 
-@shading-light: #C0C0C0;
-@shading: #808080;
-@shading-dark: #404040;
+$shading-light: #C0C0C0;
+$shading: #808080;
+$shading-dark: #404040;
 
 * {
 	margin:0;
@@ -16,7 +18,7 @@ html {
 body {
 	height:100%;
 	color: black;
-	background-color:@shading-light;
+	background-color:$shading-light;
 	font-size:12pt;
 	font-family:"Helvetica Neue", "Helvetica", "arial", sans-serif;
 	font-weight:200;
@@ -38,7 +40,7 @@ body {
 		margin:10px 10px;
 	}
 	a {
-		border-bottom:1px dotted @shading-dark;
+		border-bottom:1px dotted $shading-dark;
 		:hover {
 			text-shadow: 0px 1px 0px white;
 		}
@@ -50,7 +52,7 @@ body {
 			border: none;
 			font-size: 10px;
 			text-shadow: none;
-			color: @shading;
+			color: $shading;
 		}
 	}
 }
@@ -71,15 +73,15 @@ ul.bulleted {
 			left: 0;
 			top: 0;
 			color: white;
-			text-shadow:0px 1px 0px @shading-dark;
+			text-shadow:0px 1px 0px $shading-dark;
 			
 			
 			/*
-			left: (20px - @bullet-size) / 2;
-			top: (20px - @bullet-size) / 2;
-			padding: @bullet-size / 2;
+			left: (20px - $bullet-size) / 2;
+			top: (20px - $bullet-size) / 2;
+			padding: $bullet-size / 2;
 			background-color: white;
-			border-radius: @bullet-size / 2;*/
+			border-radius: $bullet-size / 2;*/
 		}
 	}
 }
@@ -91,7 +93,7 @@ ul.bulleted {
 	overflow:hidden;
 }
 #header {
-	background-color:@accent;
+	background-color:$accent;
 	text-align:center;
 	width:100%;
 	
@@ -99,7 +101,7 @@ ul.bulleted {
 		font-weight:500;
 		font-size:500%;
 		font-family:"Stop", "Agent FB", sans-serif;
-		color:@shading-dark;
+		color:$shading-dark;
 	}
 }
 #footer {
@@ -109,7 +111,7 @@ ul.bulleted {
 	text-align:center;
 	overflow:hidden;
 	a {
-		color:@shading-light;
+		color:$shading-light;
 	}
 }
 #footer-main {
@@ -117,22 +119,22 @@ ul.bulleted {
 	padding:5px;
 	line-height:15px;
 	text-align:center;
-	background-color:@accent;
-	color:@shading-dark;
+	background-color:$accent;
+	color:$shading-dark;
 	font-weight:bold;
 }
 #footer:hover #footer-toggle {
 	-webkit-transform:rotate(180deg);
 }
 #footer-extra {
-	background-color:@shading-dark;
+	background-color:$shading-dark;
 	color:#ffffff;
 	padding:5px;
 	height:100px;
 }
 #footer-toggle {
 	float:left;
-	color:@shading-dark;
+	color:$shading-dark;
 	margin-right:5px;
 }
 .clearfix:after {
@@ -145,8 +147,8 @@ ul.bulleted {
 #navbar {
 	display:block;
 	height:30px;
-	background-color:@shading;
-	border-top:5px solid @shading-dark;
+	background-color:$shading;
+	border-top:5px solid $shading-dark;
 	font-weight:200;
 	text-align:center;
 	text-shadow:0px 1px 0px black;
@@ -164,7 +166,7 @@ ul.bulleted {
 		a {
 			padding:5px;
 			padding-top:2.5px;
-			background-color:@shading-dark;
+			background-color:$shading-dark;
 			height:15px;
 			line-height:15px;
 			display:block;
@@ -183,7 +185,7 @@ ul.bulleted {
 			display:block;
 			padding-top:5px;
 			border-top:5px solid;
-			border-color:@shading-dark;
+			border-color:$shading-dark;
 			top:0px;
 		}
 		.round-right {
@@ -197,18 +199,18 @@ ul.bulleted {
 			display:block;
 			padding-top:5px;
 			border-top:5px solid;
-			border-color:@shading-dark;
+			border-color:$shading-dark;
 			top:0px;
 		}
 	}
 	li.current {
 		.round-left, .round-right {
-			border-color:@accent;
+			border-color:$accent;
 			top:-5px;
 			z-index:2;
 		}
 		a {
-			color:@accent;
+			color:$accent;
 		}
 	}
 }
@@ -216,7 +218,7 @@ h2, h3 {
 	font-family: Orbitron;
 	font-weight: 500;
 	color:white;
-	text-shadow:0px 1px 0px @shading-dark;
+	text-shadow:0px 1px 0px $shading-dark;
 	border-bottom:1px dotted grey;
 }
 h2 {
@@ -237,7 +239,7 @@ h3 {
 	padding:5px;
 	padding-bottom:0px;
 	border-radius:15px;
-	background-color:@shading;
+	background-color:$shading;
 	position:relative;
 	img, object, applet {
 		display:block;
@@ -256,7 +258,7 @@ h3 {
 		font-weight:bold;
 		small {
 			font-weight:normal;
-			color: @shading-light;
+			color: $shading-light;
 			display: block;
 		}
 	}
@@ -286,7 +288,7 @@ h3 {
 				background-color: white;
 				line-height: 20px;
 				text-align: center;
-				color: @shading;
+				color: $shading;
 				cursor: pointer;
 			}
 			.next-button {
@@ -323,11 +325,11 @@ h3 {
 	}
 }
 a {
-	color:@shading-dark;
+	color:$shading-dark;
 	font-weight:700;
 	text-decoration:none;
 }
-#robot-spin a {
+#robot-adjust-hue a {
 	border:none;
 	display:block;
 	height:300px;
@@ -341,17 +343,17 @@ a {
 .object-list {
 	padding:5px;
 	border-radius:10px;
-	background-color:@shading;
+	background-color:$shading;
 	
 	dl {
-		background-color:@shading-light;
+		background-color:$shading-light;
 		padding:5px;
 		border-radius:5px;
 		overflow: hidden;
 		
 		dt {
-			color:@shading-light;
-			background-color:@shading;
+			color:$shading-light;
+			background-color:$shading;
 			margin-left: -5px;
 			margin-right: -5px;
 			padding: 0px 5px;
@@ -379,5 +381,5 @@ em.large {
 	line-height: 40px;
 	font-style: normal;
 	color:white;
-	text-shadow:0px 1px 0px @shading-dark;
+	text-shadow:0px 1px 0px $shading-dark;
 }
