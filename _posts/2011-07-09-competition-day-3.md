@@ -1,0 +1,50 @@
+---
+title: Competition day 3
+author: Catherine
+---
+
+After the loss of our last motor in the last game we played yesterday, we are wondering if we will be able to declare 2 Lego robots this morning, or if we will be forced to play with just one robot, as when the team’s robots were initially registered they comprised 1 new robot and 1 Lego robot.  
+Andrew has been endeavouring to make the single remaining semi-functional new robot work with just 2 motors rather than 3, but this will compromise its functionality greatly and the best it can really hope to achieve is acting as a semi-mobile impediment to the other team’s robots.
+
+
+Our first match today will be on an only slightly-churned-up pitch, at 9.30a.m., vs Luwan Senior High School. The superteam arrangements today are:  
+Superteam 20 – NR-1, Luwan Senior High School, A.I.  
+Superteam 21 – Luwan Middle School, TechnoBotts, St Ursula  
+We know of A.I. – if we have 2 robots we can probably beat them; if we have 1, we might or might not. And NR-1 are playing now, so I had better go and check them out.  
+OK, NR-1 look good, but not forbiddingly good – we might be able to score some goals against them if we are lucky.  
+Our first match was late to start because of an altercation involving several referees (including some very senior ones) and lots of shouting and tears in the previous match on the table, which was NR-1 vs Luwan Middle School. I think that part of it was because they had more than one person handling the robots, and the additional people were reluctant to leave the robots alone, but I think there was more to it than that. I advised my team to do what the ref told them, not to argue with the ref, and on no account to burst into tears and flounce off mid-match.
+
+### Day 3 – Match 1 – pitch A6 – Luwan Senior High School, 9.30 a.m.
+
+When we finally started, it was with a pair of Lego robots, the forward robot having been dusted off, but sadly not re-programmed despite my urgings to the boys to do so. The pitch had a new carpet on it to replace the one that had been worn out from 2 days of play already, although it was already looking somewhat worse for wear after hosting just one match. Also, the carpet appeared to be incredibly slippery – our omni-wheels were sliding around a lot.  
+Despite fielding 2 robots, out attacker robot went off as a damaged robot early on, as it was just going round in circles – not sorting out its software last night is the cause of that, I reckon.  
+The other team were faster than us – a good deal faster than us – but their accuracy was not all it could be. Nonetheless they took full advantage of our attacker’s absence and put in 4 goals before it returned to the pitch.  
+Now that we were fielding 2 robots again, we were able to shield the ball from the other robots a bit better so they didn’t keep possession of it so much. Our aggressive goalie took the ball up the pitch in a spirited attempt to score, as our attacker seemed to have switched to defensive mode, but the Luwan senior robots intercepted it, captured it, and then scored, twice. Well, we thought this was always likely to be a tough match.  
+There was then much jousting and jostling around the centre circle. The ball was moved several times due to lack of progress, before the robots locked horns again. And at one point the ball was moved to a spot that was not at all favourable to us, and the Luwan robots whizzed past and put it in our undefended goal.  
+Next their forward took the ball down the pitch towards the goal we were aiming for before thinking better of it and returning to try to put it in our goal again. Our robots were struggling to make much headway as their wheels were so lacking in grip.  
+The score at the end of the first half was 9-0 to the Luwan team.  
+The second half was more of the same. As we were fielding 2 robots for all of the time, who made valiant efforts but were not really a match for the other team, we managed to impede them a little, and they only scored 5 more goals in the second half, plus an own goal from us when the ball was moved due to lack of progress and our goalie reversed (because it couldn’t see it, not realising the ball was behind it) and put it into our goal. So the final score was 16-0. We can hope for better matches – there are 2 more today. The one against AI should be reasonably close – that is at 1pm – and the one against NR-1 is an unknown quantity but I’m hoping that if we do lose it, it won’t be by more than a few goals.
+
+### Day 3, match 2 – Team A.I. from Canada on pitch A6, 1 p.m.
+
+As we were able to start with 2 robots, we had hopes of beating Team AI. Their forward robot was fast but erratic, and their goalie was relatively slow. Both use Arduino processors.  
+After a bit of preliminary tussling, we put the first goal in. We were still struggling to get traction on the new pitch carpets. Picture Bambi on a frozen pond – it was a bit like that. The slipperiness upset our steering as well. One wheel on one robot seemed particularly slippery, so Eric swapped it around with the back wheel to see if that helped. AI’s red forward robot had problems seeing the ball, so was taken off as a damaged robot, and in its absence we scored again. Their goalie was putting up a brave defence, but was unable to stop us putting a third goal in.  
+The red AI robot returned to the fray, showing distinctly random behaviour, and spent a while chasing our goalie up the pitch and finally wedging it into a corner and repeatedly driving into it. We felt that sort of behaviour was a bit unneccesary and put a 4th goal in, just to show it who was boss. So we were 4-0 up at the end of the first half.
+
+
+We gave the wheels a quick wipe at half time with a damp cloth to see if that would help them gain any traction on the glassy carpet. I passed Eric a bottle of fizzy water to do this with. He opened it rather carelessly, and returned to the table looking as if he had peed himself, with 2 wiped robots. The wiping didn’t really help, but the damp trousers made me chuckle.  
+In the second half, we scored again in the fourth minute after some protracted tussling and jockeying for position, despite the slippery wheels. Shortly after that, we put another goal in. Then our attacker took the ball on what appeared to be a victory lap of the pitch, dribbling it along the wall up to the top corner by the yellow goal, then bringing it diagonally down the pitch to the opposite corner at the blue goal end. Meanwhile AI’s red robot had parked in our goal for a couple of minutes, and it only came out of there in order to tackle our goalie and pin it in a corner. No further goals were scored, and we ended up winning the match, scoring 6-0.
+
+### Day 3 – Match 3 – field A6 – against NR-I – 3 p.m.
+
+This team had looked fairly challenging when we saw them playing earlier on, with strong and speedy robots. We were not expecting victory in this match. Eric was rather optimistically hoping we could hold them to a tie, but I felt that a loss by as few goals as possible would be rather more achievable.  
+The first 5 minutes of the first half were taken up with all 4 robots jostling and wrestling for possession of the ball, and the teams initially looked better matched than I had feared. As long as we kept the ball to the edges of the pitch, we could keep it out of their control, but once the ball was in the middle of the pitch it was theirs and it was hard to wrest control of it from them – the best we could do was hope to impede them so that they couldn’t get it to our goal. At one point there was a very hairy moment when they brought the ball fast down the pitch, and by a miracle one of our robots managed to position itself to stop them scoring.  
+5-4-3-2-1 lack of progress called every few seconds, as we managed to impede them again and yet again. Then, they broke past us and scored a goal.  
+For a moment after the kick-off after the goal, we were taking the ball towards their goal with a reasonable degree of confidence, which was our best attack on their goal yet, but they saved it and then brought the ball down to the other end of the pitch and scored again.  
+We took the ball up to their penalty area again and I thought we had them worried for a moment, but then the whistle blew for the end of the half and our hopes of clawing back a goal were dashed. The first half ended with the score 2-0 to NR-I.
+
+
+For the second half, we were shooting towards the blue goal. NR-I put an early goal in, so the score is now 3-0. With such a fast and aggressive opponent, we’re doing really well to keep the score as low as it is.  
+After 5 more minutes of goal-less tussling, we were unable to prevent them putting another goal in. 4-0 to them now. Give them a free run at the ball down the middle of the pitch, and they are deadly. So long as we keep the ball close to the walls, they cannot get it – but if there is a multi-robot pile-up around the ball, nothing moves and lack of progress is called after 5 seconds which means the ball gets moved to one of the neutral spots which are closer to the middle of the pitch and therefore dangerous for us.  
+NR-I narrowly missed another couple of scoring opportunities – one goal went wide, and we managed to save one. With only 2 minutes left, one of NR-I’s robots went off damaged and they were down to one robot. After another tussle, lack of progress was called near our goal, and sadly the ball was put on the closest neutral spot which happened to be behind our goalie, which then reversed into the goal as it could not see the ball – so an own goal, bringing the score to 5-0 to them.  
+It was with a sense of relief that we greeted the final whistle. Losing 5-0 to a clearly superior, faster team is nothing to be ashamed of. The score for their match against Luwan Middle School was 10-9, so that we only let them get 5 goals in past us is greatly to our credit.

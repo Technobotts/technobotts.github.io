@@ -7,6 +7,12 @@
 	    	{% include header.html %}
 
 			<div id="content">
+				{% if page.path contains '_posts' %}
+					<h2>
+						{{page.title}}
+						<a href="{{ page.url }}">{{ page.date | date: "%Y-%m-%d" }}</a>
+					</h2>
+				{% endif %}
 				{{content}}
 				<br style="clear:both; height: 0" />
 			</div>

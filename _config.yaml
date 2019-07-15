@@ -8,6 +8,8 @@ url: "http://technobotts.github.io"
 # Build settings
 markdown: kramdown
 
+permalink: /blog/:year/:month/:day/:title:output_ext
+
 defaults:
   - scope:
       path: "" # all files in the project

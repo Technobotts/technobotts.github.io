@@ -1,0 +1,16 @@
+---
+title: Blog
+order: 10
+---
+<div>
+	<p>Note that various blog posts have been lost to an old web-host. These are the ones recovered from the wayback machine.</p>
+{% for post in site.posts %}
+	<div>
+		<h2>
+			{{ post.title }}
+			<a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }}</a>
+		</h2>
+		{{ post.excerpt }}
+		<a href="{{ post.url }}" style="text-align: right">read more</a>
+	</div>
+{% endfor %}

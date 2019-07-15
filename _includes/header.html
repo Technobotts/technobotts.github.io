@@ -4,12 +4,12 @@
 		{% assign pages = site.pages | sort: 'order' %}
 		{% for item in pages %}
 			{% if item.order != nil %}
-				<li class="{% if item.url == page.url %}current{% endif %}">
+				<li class="{% if item.url == page.url or item.url contains 'blog' and page.url contains 'blog' %}current{% endif %}">
 					<a href="{{item.url}}">
 						{{item.title}}
 					</a>
 				</li>
 			{% endif %}
 		{% endfor %}
-	<li><a href="/blog/">Blog</a></li></ul>
+	</ul>
 </div>
