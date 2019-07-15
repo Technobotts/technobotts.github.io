@@ -3,7 +3,7 @@ title: Technobotts
 description: >
   Archived webpage for the Technobotts robotics team
 # baseurl: "/technobotts.info"
-url: "http://technobotts.github.io"
+url: "https://technobotts.github.io"
 
 # Build settings
 markdown: kramdown
