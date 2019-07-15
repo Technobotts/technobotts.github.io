@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="documentation.xsl" type="text/xsl"?>
+<section title="Data Processing" linked-project="data manipulation">
+	<content>
+		There are many application within the robot that require a simple
+		input-output object, where a sensor is used as an input, and a
+		calculated value is output. For this usage, we defined a basic
+		<class-name>DataProcessor</class-name>
+		class:
+		<code src="technobotts.util.DataProcessor" />
+		From this, we derived a class for a PID controller, and a class to
+		exponentially smooth data inputs
+	</content>
+	<section title="PID Controller">
+		<content>
+			A PID controller
+			<code src="technobotts.util.SimplePID" />
+		</content>
+	</section>
+	<section title="Exponential smoothers">
+		<content>There are a couple of noisy inputs which our robot needs to
+			smooth before they are useful. These are the output angle of the
+			goal-detecting camera, and the angle of the ball as received by the
+			infra-red detectors. In order to smooth these, we decided to use an
+			exponential smoother.</content>
+		<section title="The math">
+			<content>
+				The basic equation for an exponential smoother is as follows, where α
+				is a constant:
+				<math>\text{average} = \alpha \times \text{data} + (1-\alpha) \times
+					\text{average}</math>
+				This can be rearranged to:
+				<math>\text{average} = \text{average} + \alpha \times (\text{data} -
+					\text{average})</math>
+				Which in turn, can be written simply in java code as:
+				<code>
+					average += alpha * data;
+				</code>
+			</content>
+			<content>
+				However, this assumes a consistent iteration rate: the time between
+				successive applications of the formula must remain constant. This
+				isn't really feasible with the robot, as the sensors will be polled
+				irregularly, the delay depending on the robot's circumstance.
+				Therefore, α
+				cannot be constant, and must be adjusted to reflect the poll time. A
+				detailed explanation can be found at <link>http://stackoverflow.com/questions/1023860/exponential-moving-average-sampled-at-varying-times
+				</link>. In short, α can be calulated using:
+				<math>\alpha \times \text{data} + (1-\alpha) \times
+					\text{average}
+				</math>
+			</content>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,178 @@
+{
+	"members": {
+		"Andrew": "andrew.wightwick",
+		"Alex": "1797724613",
+		"Eric": "eric.wieser",
+		"Luke": "luke.e.sheard",
+		"Oliver": "o.wightwick",
+		"Catherine": "catherine.wightwick",
+		"Louis": "kragniz",
+		"Jonathan": "jonathan.laver.3",
+		"Nic": "nicholasjdart"
+	},
+	"competitions": [
+		{
+			"name": "FLL Nanoquest",
+			"url": "/fll#nanoquest",
+			"events": [
+				{
+					"date": "15 Sep 2006",
+					"type": "release"
+				},
+				{
+					"date": "5 Dec 2006",
+					"type": "regional",
+					"location": "Essex"
+				},
+				{
+					"date": "27 Jan 2007",
+					"type": "national",
+					"location": "Birmingham"
+				},
+				{
+					"date": [
+						"12 Apr 2007",
+						"14 Apr 2007"
+					],
+					"type": "international",
+					"location": "Atlanta"
+				}
+			],
+			"details": "Nanotechnology-themed challenges",
+			"teamMembers": ["Catherine", "Andrew", "Eric", "Luke", "Oliver"]
+		},
+		{
+			"name": "FLL Power Puzzle",
+			"url": "/fll#power-puzzle",
+			"events": [
+				{
+					"date": "5 Sep 2007",
+					"type": "release"
+				},
+				{
+					"date": "1 Dec 2007",
+					"type": "regional",
+					"location": "Duxford"
+				}
+			],
+			"details": "Energy-themed challenges",
+			"teamMembers": ["Catherine", "Andrew", "Eric", "Oliver", "Samuel"]
+		},
+		{
+			"name": "Robocup Junior Rescue",
+			"url": "#",
+			"events": [
+				{
+					"date": "27 Feb 2008",
+					"type": "regional",
+					"location": "Cranfield University"
+				},
+				{
+					"date": "8 Mar 2008",
+					"type": "national",
+					"location": "Calday Grange Grammar School"
+				}
+			],
+			"details": "Building a robot to follow a line",
+			"teamMembers": ["Catherine", "Andrew", "Eric", "Oliver"]
+		},
+		{
+			"name": "FLL Climate Connections",
+			"url": "/fll#climate-connections",
+			"events": [
+				{
+					"date": "5 Sep 2008",
+					"type": "release"
+				},
+				{
+					"date": "29 Nov 2008",
+					"type": "regional",
+					"location": "Duxford"
+				},
+				{
+					"date": "24 Jan 2009",
+					"type": "national",
+					"location": "Loughborough"
+				},
+				{
+					"date": [
+						"15 Apr 2009",
+						"18 Apr 2009"
+					],
+					"type": "international",
+					"location": "Atlanta"
+				}
+			],
+			"details": "Climate-themed challenges",
+			"teamMembers": ["Catherine", "Alex", "Andrew", "Eric", "Oliver"]
+		},
+		{
+			"name": "Robocup Junior Soccer 2010",
+			"url": "soccer",
+			"events": [
+				{
+					"date": "6 Mar 2010",
+					"type": "national",
+					"location": "Prenton High School for Girls, Birkenhead, Wirral"
+				},
+				{
+					"date": [
+						"19 Jun 2010",
+						"25 Jun 2010"
+					],
+					"type": "international",
+					"location": "Singapore"
+				}
+			],
+			"details": "Autonomous football-playing robots, in lego",
+			"teamMembers": ["Catherine", "Andrew", "Eric", "Oliver"]
+		},
+		{
+			"name": "Robocup Junior Soccer 2011",
+			"url": "soccer-2011",
+			"events": [
+				{
+					"competition": "Robocup Junior Soccer",
+					"date": "19 Mar 2011",
+					"type": "national",
+					"location": "Prenton High School for Girls, Birkenhead, Wirral"
+				},
+				{
+					"competition": "Robocup Junior Soccer",
+					"date": [
+						"5 Jul 2011",
+						"11 Jul 2011"
+					],
+					"type": "international",
+					"location": "Istanbul, Turkey"
+				}
+			],
+			"details": "Autonomous football-playing robots, in aluminum",
+			"teamMembers": ["Catherine", "Andrew", "Eric"]
+		},
+		{
+			"name": "Student Robotics 2012",
+			"url": "http://team759.blogspot.com",
+			"events": [
+				{
+					"competition": "Student Robotics",
+					"date": "24 Sep 2011",
+					"type": "release",
+					"location": "Southampton University"
+				},
+				{
+					"competition": "Student Robotics",
+					"date": [
+						"14 Apr 2012",
+						"15 Apr 2012"
+					],
+					"type": "final",
+					"location": "Southampton University"
+				}
+			],
+			"teamName": "systemetric",
+			"details": "Autonomous robots to pick up and find cubes",
+			"teamMembers": ["Alex", "Andrew", "Eric", "Jonathan", "Louis", "Nic"]
+		}
+	]
+}

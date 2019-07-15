@@ -1,0 +1,11 @@
+#navbar li {
+	display: inline;
+}
+
+#navbar li a{
+	display: inline-block;
+}
+
+.object-box .caption {
+	overflow: visible;
+}

@@ -1,0 +1,383 @@
+@accent: #FF8000;
+@accent-dark: @accent * 0.5;
+
+@shading-light: #C0C0C0;
+@shading: #808080;
+@shading-dark: #404040;
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+html {
+	height:100%;
+}
+body {
+	height:100%;
+	color: black;
+	background-color:@shading-light;
+	font-size:12pt;
+	font-family:"Helvetica Neue", "Helvetica", "arial", sans-serif;
+	font-weight:200;
+}
+#main {
+	min-height:100%;
+}
+#content {
+	margin-left:auto;
+	margin-right:auto;
+	padding: 0px 10px 25px;
+	
+	max-width:900px;
+	min-width:600px;
+	
+	text-align:justify;
+	line-height:20px;
+	p {
+		margin:10px 10px;
+	}
+	a {
+		border-bottom:1px dotted @shading-dark;
+		:hover {
+			text-shadow: 0px 1px 0px white;
+		}
+	}
+	h2, h3 {
+		margin:10px 0px;
+		a {
+			float: right;
+			border: none;
+			font-size: 10px;
+			text-shadow: none;
+			color: @shading;
+		}
+	}
+}
+ul.bulleted {
+	margin:10px 10px;
+	list-style-type: none;
+	li {
+		padding-left:20px;
+		position: relative;
+		:before {
+			content: "•";
+			display: block;
+			font-size: 20px;
+			text-align: center;
+			width:20px;
+			height:20px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			color: white;
+			text-shadow:0px 1px 0px @shading-dark;
+			
+			
+			/*
+			left: (20px - @bullet-size) / 2;
+			top: (20px - @bullet-size) / 2;
+			padding: @bullet-size / 2;
+			background-color: white;
+			border-radius: @bullet-size / 2;*/
+		}
+	}
+}
+#logo {
+	background:url("logo.png") center bottom no-repeat;
+	text-indent:-9999px;
+	vertical-align:bottom;
+	height:65px;
+	overflow:hidden;
+}
+#header {
+	background-color:@accent;
+	text-align:center;
+	width:100%;
+	
+	h1 {
+		font-weight:500;
+		font-size:500%;
+		font-family:"Stop", "Agent FB", sans-serif;
+		color:@shading-dark;
+	}
+}
+#footer {
+	position:relative;
+	margin-top:-50px;
+	height:50px;
+	text-align:center;
+	overflow:hidden;
+	a {
+		color:@shading-light;
+	}
+}
+#footer-main {
+	margin-top:25px;
+	padding:5px;
+	line-height:15px;
+	text-align:center;
+	background-color:@accent;
+	color:@shading-dark;
+	font-weight:bold;
+}
+#footer:hover #footer-toggle {
+	-webkit-transform:rotate(180deg);
+}
+#footer-extra {
+	background-color:@shading-dark;
+	color:#ffffff;
+	padding:5px;
+	height:100px;
+}
+#footer-toggle {
+	float:left;
+	color:@shading-dark;
+	margin-right:5px;
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+#navbar {
+	display:block;
+	height:30px;
+	background-color:@shading;
+	border-top:5px solid @shading-dark;
+	font-weight:200;
+	text-align:center;
+	text-shadow:0px 1px 0px black;
+	li {
+		text-align:center;
+		display:inline-block;
+		margin-left:-2.5px;
+		margin-right:-2.5px;
+		padding-left:5px;
+		padding-right:5px;
+		vertical-align:text-top;
+		height:100%;
+		position:relative;
+		overflow:hidden;
+		a {
+			padding:5px;
+			padding-top:2.5px;
+			background-color:@shading-dark;
+			height:15px;
+			line-height:15px;
+			display:block;
+			color:white;
+			border:none;
+			border-radius:0px 0px 5px 5px;
+		}
+		.round-left {
+			left:0px;
+			padding-right:5px;
+			border-right:5px solid;
+			border-top-right-radius:10px;
+			position:absolute;
+			width:0;
+			height:0;
+			display:block;
+			padding-top:5px;
+			border-top:5px solid;
+			border-color:@shading-dark;
+			top:0px;
+		}
+		.round-right {
+			right:0px;
+			padding-left:5px;
+			border-left:5px solid;
+			border-top-left-radius:10px;
+			position:absolute;
+			width:0;
+			height:0;
+			display:block;
+			padding-top:5px;
+			border-top:5px solid;
+			border-color:@shading-dark;
+			top:0px;
+		}
+	}
+	li.current {
+		.round-left, .round-right {
+			border-color:@accent;
+			top:-5px;
+			z-index:2;
+		}
+		a {
+			color:@accent;
+		}
+	}
+}
+h2, h3 {
+	font-family: Orbitron;
+	font-weight: 500;
+	color:white;
+	text-shadow:0px 1px 0px @shading-dark;
+	border-bottom:1px dotted grey;
+}
+h2 {
+	font-size: 24px;
+	line-height: 24px;
+	padding-top: 5px;
+}
+h3 {
+	font-size: 18px;
+	line-height: 19px;
+}
+.object-box {
+	display:block;
+	display:table;
+	margin-left:auto;
+	margin-right:auto;
+	margin:10px auto;
+	padding:5px;
+	padding-bottom:0px;
+	border-radius:15px;
+	background-color:@shading;
+	position:relative;
+	img, object, applet {
+		display:block;
+		border-radius:10px;
+		margin-bottom:5px;
+	}
+	.caption {
+		font-size:75%;
+		color:white;
+		text-align:center;
+		line-height:15px;
+		display:block;
+		margin: auto;
+		margin-bottom: 5px;
+		overflow:hidden;
+		font-weight:bold;
+		small {
+			font-weight:normal;
+			color: @shading-light;
+			display: block;
+		}
+	}
+	&.left {
+		display:block;
+		float:left;
+		margin-top:0px;
+		margin-left:0px;
+		margin-right:10px;
+	}
+	&.right {
+		display:block;
+		float:right;
+		margin-top:0px;
+		margin-right:0px;
+		margin-left:10px;
+	}
+	&.multiple {
+		.controls {
+			position: relative;
+			height: 0px;
+			width: 100%;
+			.next-button, .previous-button {
+				position: absolute;
+				width: 20px;
+				height: 20px;
+				background-color: white;
+				line-height: 20px;
+				text-align: center;
+				color: @shading;
+				cursor: pointer;
+			}
+			.next-button {
+				right:0px;
+				border-bottom-right-radius:10px;
+			}
+			.previous-button {
+				left:0px;
+				border-bottom-left-radius:10px;
+			}
+		}
+		.caption {
+			font-size:100%;
+			line-height:20px;
+			padding-left:25px;
+			padding-right:25px;
+		}
+		.media {
+			background: white url(/images/ajaxSpinner.gif) 50% 50% no-repeat;
+			text-align:center;
+			border-radius:10px;
+			border-bottom-left-radius:0px;
+			border-bottom-right-radius:0px;
+			overflow:hidden;
+			margin-bottom:5px;
+			* {
+				border-radius:0;
+				margin:0 auto;
+			}
+			.lsoading {
+				background:white;
+			}
+		}
+	}
+}
+a {
+	color:@shading-dark;
+	font-weight:700;
+	text-decoration:none;
+}
+#robot-spin a {
+	border:none;
+	display:block;
+	height:300px;
+	line-height:300px;
+	text-align:center;
+	width:400px;
+	border-radius:10px;
+	background:white url(/images/ajaxSpinner.gif) 50% 50% no-repeat;
+}
+
+.object-list {
+	padding:5px;
+	border-radius:10px;
+	background-color:@shading;
+	
+	dl {
+		background-color:@shading-light;
+		padding:5px;
+		border-radius:5px;
+		overflow: hidden;
+		
+		dt {
+			color:@shading-light;
+			background-color:@shading;
+			margin-left: -5px;
+			margin-right: -5px;
+			padding: 0px 5px;
+		}
+	}
+	
+	img {
+		display: block;
+		float: right;
+		margin-left: 5px;
+		border-radius: 5px;
+	}
+}
+
+iframe {
+	display: block;
+	margin: 0;
+}
+
+em.large {
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-size: 250%;
+	line-height: 40px;
+	font-style: normal;
+	color:white;
+	text-shadow:0px 1px 0px @shading-dark;
+}

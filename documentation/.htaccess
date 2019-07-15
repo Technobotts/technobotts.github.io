@@ -1,0 +1,4 @@
+DirectoryIndex DataProcessing
+
+RewriteEngine on
+RewriteRule ^([^/?\.]+)$ $1.xml [NC]
